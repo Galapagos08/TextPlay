@@ -10,6 +10,11 @@
 
 @interface ViewController () <UITextFieldDelegate>
 
+@property (strong, nonatomic) IBOutlet UILabel *leftLabel;
+@property (strong, nonatomic) IBOutlet UILabel *rightLabel;
+- (IBAction)leftButton:(UIButton *)sender;
+- (IBAction)rightButton:(UIButton *)sender;
+
 @end
 
 @implementation ViewController
@@ -35,4 +40,11 @@
 }
 
 
+- (IBAction)leftButton:(UIButton *)sender {
+    
+}
+
+- (IBAction)rightButton:(UIButton *)sender {
+    
+}
 @end
