@@ -60,11 +60,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0p-F5-10U">
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Clear Labels">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="RUt-8n-XUD" secondAttribute="trailing" constant="30" id="1Dn-qP-bxQ"/>
                             <constraint firstItem="ccT-z2-Rf3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Its-Wd-0uX"/>
+                            <constraint firstItem="A0p-F5-10U" firstAttribute="top" secondItem="Ze5-BM-vZQ" secondAttribute="bottom" constant="197.5" id="MPR-zz-n8i"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BLk-gO-SU0" secondAttribute="trailing" constant="37" id="MzE-em-d77"/>
                             <constraint firstItem="Ze5-BM-vZQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OBo-Bw-K8y"/>
                             <constraint firstItem="kAK-kX-FZz" firstAttribute="centerX" secondItem="ccT-z2-Rf3" secondAttribute="centerX" id="Ozp-ud-A8w"/>
@@ -72,6 +79,7 @@
                             <constraint firstItem="RUt-8n-XUD" firstAttribute="baseline" secondItem="ccT-z2-Rf3" secondAttribute="baseline" id="Qpq-Wv-0oA"/>
                             <constraint firstItem="Ze5-BM-vZQ" firstAttribute="width" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="width" id="aCU-tp-Ao4"/>
                             <constraint firstItem="Ze5-BM-vZQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="biz-mL-7vi"/>
+                            <constraint firstItem="A0p-F5-10U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cfT-C6-fi1"/>
                             <constraint firstItem="ccT-z2-Rf3" firstAttribute="top" secondItem="Ze5-BM-vZQ" secondAttribute="bottom" constant="75" id="t7e-Ls-8oB"/>
                             <constraint firstItem="kAK-kX-FZz" firstAttribute="top" secondItem="ccT-z2-Rf3" secondAttribute="bottom" constant="32" id="xZp-ri-hbb"/>
                         </constraints>
