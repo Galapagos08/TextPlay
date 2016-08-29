@@ -14,6 +14,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *rightLabel;
 - (IBAction)leftButton:(UIButton *)sender;
 - (IBAction)rightButton:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
@@ -41,10 +42,11 @@
 
 
 - (IBAction)leftButton:(UIButton *)sender {
-    
+    [self.leftLabel setText:_textField.text];
 }
 
 - (IBAction)rightButton:(UIButton *)sender {
-    
+    [self.rightLabel setText:_textField.text];
+   
 }
 @end
