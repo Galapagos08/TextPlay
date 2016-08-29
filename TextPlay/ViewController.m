@@ -16,6 +16,7 @@
 - (IBAction)rightButton:(UIButton *)sender;
 @property (strong, nonatomic) IBOutlet UITextField *textField;
 
+- (IBAction)clearButton:(UIButton *)sender;
 @end
 
 @implementation ViewController
@@ -48,5 +49,9 @@
 - (IBAction)rightButton:(UIButton *)sender {
     [self.rightLabel setText:_textField.text];
    
+}
+- (IBAction)clearButton:(UIButton *)sender {
+    [self.leftLabel setText:@""];
+    [self.rightLabel setText:@""];
 }
 @end
